@@ -99,9 +99,9 @@ import AppleButton from './path/to/customAppleButton';
 
 export default class Login extends Component {
 
-    async handleAppleLogin() {
+    handleAppleLogin() {
         try {
-            await Meteor.loginWithApple((error)=>{
+            Meteor.loginWithApple((error)=>{
                 if (!error) {
     	            //Do anything
                 } else {
