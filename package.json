@@ -1,0 +1,34 @@
+{
+  "name": "@meteorrn/oauth-apple",
+  "version": "1.0.0",
+  "description": "Accounts Apple for Meteor React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meteorrn/oauth-apple.git"
+  },
+  "keywords": [
+    "meteor",
+    "react-native",
+    "apple",
+    "oauth",
+    "login",
+    "accounts",
+    "accounts-apple"
+  ],
+  "author": "Antware",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meteorrn/oauth-apple/issues"
+  },
+  "homepage": "https://github.com/meteorrn/oauth-apple#readme",
+  "dependencies": {
+    "@invertase/react-native-apple-authentication": "2.1.2"
+  },
+  "peerDependencies": {
+    "@meteorrn/core": ">=2.1.0"
+  }
+}
